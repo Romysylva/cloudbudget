@@ -1,0 +1,169 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+/* font-family: "Raleway", sans-serif; */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.upper-case{
+    text-transform: uppercase;
+}
+.text-white{
+    color: #ffffff;
+}
+
+.navbar{
+    background-color: #f4511e;
+}
+.bg-color{
+    background-color: #f73630;
+}
+
+.header{
+   background-image: url(./images/image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.overlay{
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(250, 89, 45, 0.69);
+    
+}
+.py1-1{
+    padding-top: 250px;
+}
+.heading-text{
+    font-size: 6.5rem;
+    font-weight: 350;
+}
+.discription{
+    /* width: 350px; */
+    font-size: 1.8rem;
+    font-weight: 350;
+  
+}
+
+
+.border-animation{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 0.35rem solid rgb(228, 222, 222);
+    top: -300px;
+    left: 70px;
+    border-radius: 50%;
+  
+}
+.pulse{
+    animation-name: pulse;
+    animation-duration: 1s;
+    /* animation-delay: infinite; */
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+}
+.img-fluid{
+    width: 700px;
+}
+
+@keyframes pulse{
+    0%{
+        transform:scale(1);
+        -webkit-transform:scale(1);
+}
+    100%{
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+}
+
+}
+.cad-body{
+    width: 24rem;
+    margin: 0 auto;
+    margin-top: -120px;
+}
+.ima{
+    position: relative;
+    margin-left: 15px;
+    margin-top: -60px;
+}
+.nag-mt{
+    margin-top: -20px;
+}
+.fa-play-circle{
+    color: #f4511e;
+    font-size: 40px;
+    position: relative;
+    /* left: -500px; */
+}
+.line-height{
+    line-height: 0.8rem;
+}
+.top-mgn{
+    margin-top: 70;
+}
+@media only screen and (max-width:600px) {
+    .py1-1{
+        padding-top: 200px;
+    }
+    .heading-text{
+        font-size: 2.0rem;
+        font-weight: 350;
+    }
+    .discription{
+        font-size: 0.6rem;
+        font-weight: 400;
+      
+    }
+    .img-fluid{
+        width: 300px;
+    }
+    .p-text{
+        width: 290px;
+    }
+    .border-animation{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border: 0.35rem solid rgb(228, 222, 222);
+        top: -100px;
+        left: 80px;
+        border-radius: 50%;
+      
+    }
+    .h1-text{
+        width: 360px;
+    }
+    .cad-body{
+        width: 14rem;
+       margin-top: -50px;
+    }
+    .fa-play-circle{
+        color: #f4511e;
+        font-size: 20px;
+        position: relative;
+        
+    }
+    .top-mgn{
+        margin-top: -90px;
+    }
+    
+   
+    
+}
