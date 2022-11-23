@@ -11,7 +11,7 @@ body,
 html{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100% !important;
     height: 100%;
    
 }
@@ -33,6 +33,44 @@ html{
 .bg-color{
     background-color: #f73630;
 }
+.navbar-toggler{
+    border: none;
+    
+}
+.navbar-toggler-icon{
+    color: #fff;
+    
+}
+@media screen and (max-width:600px) {
+    .navbar-brand{
+        font-size: 12px;
+        
+    }
+    .ing{
+       width: 20px;     
+    }
+    .dropdown-menu {
+        position: absolute;
+        left: -80% !important;
+    }
+}
+.btn-secondary{
+    background-color: transparent;
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: transparent !important;
+    border: none;
+}
+.dropdown-menu {
+    position: absolute;
+    left: 80% !important;
+}
+.dropdown-menu li:hover{
+    border: 1px solid gray;
+
+}
+
 
 .header{
    background-image: url(./images/image.jpg);
@@ -45,17 +83,20 @@ html{
 }
 .overlay{
     height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
+    width: 100% !important;
+    left: 0 ;
+    top: 0 ;
     background: rgba(250, 89, 45, 0.69);
     
+}
+#overview{
+    width: 100% !important;
 }
 .py1-1{
     padding-top: 250px;
 }
 .heading-text{
-    font-size: 6.5rem;
+    font-size: 6.0rem;
     font-weight: 350;
 }
 .discription{
